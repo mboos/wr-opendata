@@ -1,0 +1,376 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Business": "Activa Sportsplex", "Address": "135 Lennox Lewis Way", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 542807.592452398850583, 4807856.473833564668894 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Adventure Guide", "Address": "382 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538334.996091031702235, 4814564.99900767672807 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Albert McCormick Community Centre", "Address": "500 Parkside Dr", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 536829.00028250797186, 4815208.997624908573925 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Angies", "Address": "47 Erb St W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538493.002503315685317, 4812516.996431497856975 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Auntys Kitchen", "Address": "220 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538465.997451647999696, 4813696.995927753858268 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Blessed Town", "Address": "2 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538648.997647601179779, 4812600.99921140819788 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Blue Skies Yoga and Eco Store", "Address": "55 Victoria St N", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540773.71232741267886, 4811339.576042613014579 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Bolero Pizza and Pasta House", "Address": "301 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541729.001987367402762, 4810644.997507616877556 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Booster Juice", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Booster Juice", "Address": "655 Fairway Rd S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 544390.057296620914713, 4807513.079440333880484 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Breithaupt Centre", "Address": "350 Margaret Ave", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540769.935582799254917, 4812700.008882977068424 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Bridgeport Community Centre", "Address": "20 Tyson Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 542224.997425028122962, 4814551.001835194416344 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "British Pride Bakery", "Address": "6-561 Hespeler Rd", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 554641.370453407173045, 4805826.343218689784408 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "British Pride Bakery", "Address": "6-561 Hespeler Rd", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 554641.370453407173045, 4805826.343218689784408 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Burger King", "Address": "150 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537534.003504141001031, 4813387.999391853809357 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Burger King", "Address": "396 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538322.000467372825369, 4814693.002530447207391 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cabbage Rose Lane", "Address": "1174 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 552488.995732146431692, 4804582.001529768109322 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cafe Pyrus", "Address": "16 Charles St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541119.996982205309905, 4810893.996434840373695 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cambridge Libraries & Galleries", "Address": "1 North Sq", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555261.999144172295928, 4800958.999086460098624 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cambridge Libraries & Galleries Clemens Mill", "Address": "50 Saginaw Pkwy", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 556679.995509565342218, 4804613.005287243053317 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cambridge Libraries & Galleries Hespeler", "Address": "5 Tannery St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555869.997834472567774, 4808893.004014029167593 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cambridge Libraries & Galleries Preston", "Address": "435 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 551704.997474722098559, 4805192.997377051971853 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cantenbury Cafe", "Address": "9 Ainslie St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555637.003262555459514, 4800936.003634401597083 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Caribbean Kitchen", "Address": "300 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541786.706450946512632, 4810706.525014463812113 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Casa Salsa", "Address": "300 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541786.706450946512632, 4810706.525014463812113 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Centreville Chicopee Community Centre", "Address": "141 Morgan Ave", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 546150.003264894941822, 4808533.997442326508462 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cest Cheese Please", "Address": "12 Water St S", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555465.003082101466134, 4800860.999134066514671 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "CH Candles and Gifts", "Address": "997 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 552344.998747871257365, 4804731.001492124982178 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Chapters", "Address": "428 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538306.003601555014029, 4814867.997144434601068 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Christines Hair on the Go", "Address": "1001 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 552351.001232189242728, 4804727.002105454914272 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "City Hall", "Address": "100 Regina St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538808.002204396296293, 4812373.995549146085978 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Coffee Culture", "Address": "138 Main St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555774.997762512648478, 4800929.005048159509897 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Coffee Time Donuts", "Address": "255 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540971.002466748934239, 4811053.004395947791636 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "ConeStoga Mall", "Address": "550 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538215.999699051259086, 4816248.996119247749448 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Cora", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Country Style", "Address": "73 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541217.000832675490528, 4810945.995951039716601 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Creative Touch", "Address": "57 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538582.997554606175981, 4812756.997760006226599 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Crystal Palace", "Address": "10 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538669.999534088303335, 4812558.998161884024739 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Curry in a Hurry", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Dairy Queen", "Address": "238 Weber St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538892.002260856912471, 4813985.997572891414165 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Dairy Queen", "Address": "51 Westmount Rd  N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539653.107876468449831, 4808927.167654640041292 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Dairy Queen", "Address": "123 Pioneer Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 546022.002465575118549, 4804745.99817084427923 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Davids tea", "Address": "95 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538656.46807159576565, 4812350.390044233761728 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Denim Bar", "Address": "48 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538684.998936257557943, 4812478.004113620147109 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Dickson Bowl", "Address": "61 Ainslie St S", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555620.998226386960596, 4800638.004390549845994 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Don McLaren Arena", "Address": "61 Green St", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539621.00112164800521, 4811460.001565104350448 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Doon Pioneer Park Community Centre", "Address": "150 Pioneer Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 545590.473137564491481, 4804759.474483469501138 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "East African Cafe", "Address": "50 Ontario St S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541177.997620997484773, 4810880.999449456110597 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "East Side Marios", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Eating Well Organically", "Address": "104 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538713.999596085050143, 4812324.995232517831028 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "El Rinconcito Mexicano", "Address": "49 Main St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555562.996906732209027, 4800873.996119450777769 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Elixir BiStro", "Address": "34 Main St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555544.130886091734283, 4800921.993525530211627 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Ellisons BiStro", "Address": "14 Charles St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541133.561126100714318, 4810887.438366673886776 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Employment Resource and Housing", "Address": "235 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541623.001219045836478, 4810710.004222138784826 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Eve Chocolatier", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Everyday Gourmet", "Address": "302 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540887.002410288201645, 4811130.998563777655363 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Farah Foods", "Address": "50 Westmount Rd  N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4812180.004869769327343 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Figaros Pizza", "Address": "90 Weber St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539376.000900232465938, 4813301.996918608434498 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Fish and chips", "Address": "37 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538592.00196194567252, 4812700.998857136815786 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Forest Heights Pool", "Address": "253 Fischer-Hallman Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 538589.042252402752638, 4808227.539842908270657 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Fox and Fiddle", "Address": "77 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538552.999431130243465, 4812872.004297392442822 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Frenzi", "Address": "80 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538699.000193915795535, 4812391.002134137786925 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Full Circle Foods", "Address": "3 Charles St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541240.996471833554097, 4810792.997282874770463 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Giant Tiger", "Address": "120 Main St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555737.998329345136881, 4800934.003941066563129 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Ginos", "Address": "94 Bridgeport Rd E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539336.997688554576598, 4813184.000713726505637 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Golden Hearth Bakery", "Address": "343 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541780.002678193035536, 4810614.003963080234826 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Grand River Arena", "Address": "555 Heritage Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 545716.997145994449966, 4811650.003070749342442 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Grand River Conservation Authority", "Address": "400 Clyde Rd", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 557863.999839392723516, 4802795.005572897382081 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "GRT Terminal Building", "Address": "15 Charles St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541071.000069889938459, 4810839.997906167991459 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "GRT Terminal Building", "Address": "35 Ainslie St S", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555648.003278054646216, 4800743.002929185517132 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "GWS Water Store and Supply Co. Ltd.", "Address": "120 Northfield Dr E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538340.998575349687599, 4817236.995097387582064 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Hair Space", "Address": "657 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 551946.996453978586942, 4805008.004977252334356 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Harveys", "Address": "410 King St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538307.001065203570761, 4814754.000326222740114 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Healthy Foods and More", "Address": "75 Bridgeport Rd E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539185.001930939150043, 4812957.996557700447738 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Hespeler Village Wine Making", "Address": "24 Queen St W", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555709.995814028894529, 4808876.997616135515273 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Java Bean Gardens", "Address": "2 Queen St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555796.997793511021882, 4808931.996331905946136 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Johnny Frescos", "Address": "244 Weber St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538899.003570548607968, 4814008.003050790168345 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kabob Hut", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "King Convenience", "Address": "10 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538645.995724579668604, 4812616.996077226474881 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kingsdale Community Centre", "Address": "72 Wilson Ave", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 543789.377197964699008, 4808659.069170918315649 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kismet Restaurant", "Address": "160 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537401.650631345575675, 4813336.08566433750093 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kitchener Public Library", "Address": "85 Queen St N", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541558.997415073099546, 4811214.001837452873588 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kitchener Public Library Country Hills Community", "Address": "1500 Block Line Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 543117.00022928440012, 4807591.998900380916893 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kitchener Public Library Forest Heights", "Address": "251 Fischer-Hallman Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 538590.732153273536824, 4808261.262965442612767 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kitchener Public Library Grand River Stanley Park", "Address": "175 Indian Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 545517.893188801710494, 4811778.676562276668847 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kitchener Public Library Pioneer Park", "Address": "150 Pioneer Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 545590.473137564491481, 4804759.474483469501138 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Kiwanis Park", "Address": "1000 Kiwanis Park Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 542285.192483847145922, 4816582.90813962277025 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "KW Book Store", "Address": "308 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540876.999858437571675, 4811133.997763349674642 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "L.A. Franks", "Address": "104 Water St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555442.346018734038807, 4801346.662482398562133 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Lions Arena", "Address": "20 Rittenhouse Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541806.998878647456877, 4806815.996692846529186 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Long and McQuade Musical Instruments", "Address": "36 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538634.996389943058603, 4812710.996642949990928 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Loop clothing", "Address": "56 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538626.000152954249643, 4812791.000717053189874 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Lyle Hallman Pool", "Address": "600 Heritage Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 545824.621771518606693, 4811616.159435541369021 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Manulife Financial Soccer and Sports Complex", "Address": "185 Bridge St W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 541019.99937906418927, 4815130.003950842656195 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Marble Slab", "Address": "158 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537473.998405975755304, 4813351.996741472743452 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Marble Slab Creamery", "Address": "200 Franklin Blvd", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 557676.064070751192048, 4800703.218087289482355 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Margaritas", "Address": "4 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538647.999503090046346, 4812604.998598078265786 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Mary Browns", "Address": "94 Bridgeport Rd E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539336.997688554576598, 4813184.000713726505637 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Masala Bay", "Address": "3B Regina St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538692.997028735233471, 4812638.002048889175057 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Matter of Taste", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Matter of Taste", "Address": "119 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541153.304778579273261, 4810970.946159505285323 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "McDonald's", "Address": "600 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540328.997415089281276, 4811371.999398523010314 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "McPhails", "Address": "98 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538589.00071978662163, 4812937.000798976048827 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "meet point restaurant", "Address": "250 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537534.003504141001031, 4813387.999391853809357 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Millpond Records and Books", "Address": "4 Queen St W", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555776.003396512009203, 4808919.998852758668363 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Misty Mountain Cafe", "Address": "33 Queen St S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541316.998435816494748, 4810837.998212832957506 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Moon Lite Restaurant", "Address": "34 Ainslie St N", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555606.99696872883942, 4801000.000629748217762 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Morning Glory Cafe and Bakery", "Address": "256 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541689.001312040840276, 4810707.005022567696869 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Moses Springer Community Centre", "Address": "150 Lincoln Rd", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539537.998528835945763, 4813548.996152495965362 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Mount Hope Cemetery", "Address": "83 Roger St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 539532.003534006071277, 4811997.001950365491211 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Mozys Shawarma", "Address": "247 King St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538373.99862184713129, 4813816.001851810142398 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Mr. Sub", "Address": "102 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538582.00009095761925, 4812979.002529363147914 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Mr. Sub", "Address": "706 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 551963.001490147202276, 4804951.996542306616902 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Noodle Hut", "Address": "220 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538465.997451647999696, 4813696.995927753858268 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Nova Era", "Address": "376 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541831.002688156208023, 4810622.002055557444692 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Oasis H2O", "Address": "68 Pollock Ave", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 556575.001056105596945, 4800819.997590779326856 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Olivier", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "On the Run", "Address": "415 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538219.00162207277026, 4814769.997192041017115 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Pak Indian Kitchen and Sweet House", "Address": "656 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 551923.998959331773221, 4804976.001032678410411 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Parkview Cemetery and Crematorium", "Address": "335 University Ave E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 540730.000951140886173, 4815129.003763743676245 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "PharmaSave", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Public Health and Social Services", "Address": "99 Regina St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538750.99834838998504, 4812358.998870426788926 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Quiznos", "Address": "572 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537959.002679350669496, 4816449.994916941039264 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Rain Tree Cafe", "Address": "220 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538465.997451647999696, 4813696.995927753858268 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Rain Tree Cafe", "Address": "220 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538465.997451647999696, 4813696.995927753858268 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Red Basil", "Address": "61 Main St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555587.505916259484366, 4800879.126418830826879 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "REEP House for Sustainable Living", "Address": "20 Mill St", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540921.997384082875215, 4810236.000645126216114 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Regional Administration Building", "Address": "150 Frederick St", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541711.195388868334703, 4811217.334659677930176 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Reids Chocolates", "Address": "42 Ainslie St N", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555602.997582058771513, 4801050.000452612526715 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "RIM Park", "Address": "2001 University Ave E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 540243.702358041889966, 4818597.7377302153036 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Rockway Center", "Address": "1405 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 543172.997770428773947, 4809768.995654353871942 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Runners Choice", "Address": "255 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538362.998606347944587, 4813975.9991062162444 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Running Room", "Address": "15 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538622.998229932738468, 4812545.000989401713014 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Running Room", "Address": "500 Fairway Rd S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 544715.00303795968648, 4807701.996331922709942 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Sangster's Health Centre", "Address": "75 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538554.813248986727558, 4812389.992414963431656 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Savoie-Faire Salon", "Address": "1152 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 552454.000077489297837, 4804605.996488063596189 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Second Cup", "Address": "150 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537534.003504141001031, 4813387.999391853809357 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Seven Shores Urban Market and Cafe", "Address": "10 Regina St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538735.999627083307132, 4812680.003098413348198 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Sportsworld Arena", "Address": "35 Sportsworld Crossing Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 548864.905951332417317, 4806669.956440032459795 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Spunturtle", "Address": "8 Queen St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555811.99651481769979, 4808943.003836893476546 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Stanley Park Community Centre", "Address": "505 Franklin St N", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 544500.999084531329572, 4810718.002314616926014 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Starbucks", "Address": "95 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538656.46807159576565, 4812350.390044233761728 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Starbucks", "Address": "247 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538373.99862184713129, 4813816.001851810142398 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Subway", "Address": "402 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538310.002307362505235, 4814723.996755846776068 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Sweet Dreams Tea Shop", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Swiss Chalet", "Address": "525 Highland Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539257.558730374905281, 4809209.533613279461861 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Symposium", "Address": "4 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538647.999503090046346, 4812604.998598078265786 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "TCBY", "Address": "160 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537401.650631345575675, 4813336.08566433750093 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Ten Thousand Villages", "Address": "80 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538699.000193915795535, 4812391.002134137786925 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Art Studios", "Address": "22 Regina St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538721.997688562609255, 4812737.001507518813014 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Coffee Peddler", "Address": "48 Ainslie St S", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555587.000716240843758, 4800702.001385897397995 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Futon Shop", "Address": "49 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538585.001333116553724, 4812729.003415040671825 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Golden Kiwi Pub and Grill", "Address": "47 Dickson St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555693.998948210966773, 4800970.996565608307719 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Hub Bicycle Shop", "Address": "22 Queen St W", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555715.998979209340177, 4808880.996321943588555 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Savoury", "Address": "33 Erb St W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538516.998142473748885, 4812537.002216061577201 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Silver Spoon", "Address": "217 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541006.995585054624826, 4811036.997317192144692 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "The Toy Cupboard", "Address": "22 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538674.996384407044388, 4812536.002709824591875 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "109 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538528.995621621492319, 4813008.996567663736641 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "354 Highland Rd W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539587.003611501888372, 4809592.002027894370258 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "795 Ottawa St S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541396.001641958486289, 4807812.003976402804255 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "340 Westmount Rd  W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 538776.125581120722927, 4809772.186857166700065 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "700 Westmount Rd  E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540430.998796740779653, 4807501.997040465474129 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "638 Belmont Ave W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539095.996172946528532, 4811163.001827489584684 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "730 King St W", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539950.999544035294093, 4811533.996346264146268 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "685 Fischer-Hallman Rd", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 539562.999801993253641, 4807092.000671737827361 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tim Hortons", "Address": "200 Victoria St S", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 540137.999126658542082, 4810625.001255129463971 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tiny Cakes", "Address": "65 Dickson St", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555746.755583575810306, 4800990.14242076035589 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Top Drawer Consignment Shop", "Address": "7 Queen St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555793.899188006180339, 4808965.818179512396455 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Tops Shawarma", "Address": "12 Queen St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 555821.000922157196328, 4808949.002916898578405 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Victoria Hills Community Centre", "Address": "10 Chopin Dr", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 538592.00196194567252, 4810203.997381414286792 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Vogue Plus", "Address": "660 King St E", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 551930.001443649642169, 4804972.002326870337129 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Watami Sushi and Sake Bar", "Address": "15 King St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538604.000121955876239, 4812622.005183070898056 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Fire Department", "Address": "470 Columbia St W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 534683.002519972389564, 4812681.003285511396825 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Fire Station", "Address": "216 Weber St N", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538962.001740521984175, 4813916.001497539691627 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Fire Station", "Address": "150 Northfield Dr  W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 536836.000911336974241, 4816221.001774282194674 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Fire Station", "Address": "911 University Ave E", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 540577.527228009304963, 4818041.181610541418195 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Memorial Recreation Complex", "Address": "101 Father David Bauer Dr", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537828.000637871795334, 4812462.997221962548792 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Public Library", "Address": "35 Albert St", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538450.000585830188356, 4812664.996206755749881 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Waterloo Public Library McCormick Branch", "Address": "500 Parkside Dr", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 536829.00028250797186, 4815208.997624908573925 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "White Tiger Vintage Boutique", "Address": "248 King St E", "Mun": "Kitchener" }, "geometry": { "type": "Point", "coordinates": [ 541674.001909871469252, 4810716.003302143886685 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Whole Lot-a Gelata", "Address": "120 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538718.996446403674781, 4812291.002488409169018 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Wild Wing", "Address": "201 Franklin Blvd.", "Mun": "Cambridge" }, "geometry": { "type": "Point", "coordinates": [ 544379.999594903085381, 4808531.997748991474509 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Williams", "Address": "170 University Ave W", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 537396.000833833008073, 4813409.004682654514909 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Westminster United Church", "Address": "543 Beechwood Dr", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 535387.89408014586661, 4810863.890735079534352 ] } }
+,
+{ "type": "Feature", "properties": { "Business": "Words Worth Books", "Address": "100 King St S", "Mun": "Waterloo" }, "geometry": { "type": "Point", "coordinates": [ 538709.00274576630909, 4812338.003111702390015 ] } }
+
+]
+}

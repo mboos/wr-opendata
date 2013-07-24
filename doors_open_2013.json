@@ -1,0 +1,90 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "St. Marks Lutheran Church", "Address": "825 King St W", "City": "Kitchener", "SiteID": 11 }, "geometry": { "type": "Point", "coordinates": [ 539672.001812473870814, 4811572.998877080157399 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Former Berlin Fire Station No. 2 \/ Station 2 Studios", "Address": "318 Duke St W", "City": "Kitchener", "SiteID": 12 }, "geometry": { "type": "Point", "coordinates": [ 540733.002874162979424, 4811565.000103740021586 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Former Rumpel Felt Factory", "Address": "60 Victoria St N", "City": "Kitchener", "SiteID": 14 }, "geometry": { "type": "Point", "coordinates": [ 540748.00227633304894, 4811381.9971843380481 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Breithaupt Block", "Address": "20-24 Breithaupt St", "City": "Kitchener", "SiteID": 13 }, "geometry": { "type": "Point", "coordinates": [ 540497.359356572851539, 4811347.291676908731461 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Green Gables Guest House", "Address": "189 Queen St N", "City": "Kitchener", "SiteID": 15 }, "geometry": { "type": "Point", "coordinates": [ 541860.003347983583808, 4811748.003023145720363 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Waterloo County Gaol & Governor's House", "Address": "77 Queen St N", "City": "Kitchener", "SiteID": 17 }, "geometry": { "type": "Point", "coordinates": [ 541539.025673637166619, 4811160.512593973428011 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Walper Hotel", "Address": "20 Queen St S", "City": "Kitchener", "SiteID": 19 }, "geometry": { "type": "Point", "coordinates": [ 541291.608361006714404, 4810888.009898535907269 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Waterloo Region Courthouse", "Address": "70 Duke St E", "City": "Kitchener", "SiteID": 18 }, "geometry": { "type": "Point", "coordinates": [ 541572.960454883985221, 4810969.117301842197776 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Highland Baptist Church", "Address": "135 Highland Rd W", "City": "Kitchener", "SiteID": 20 }, "geometry": { "type": "Point", "coordinates": [ 540189.997281135059893, 4809888.001578411087394 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "First Mennonite Church \/ Primera Iglesia Menonita", "Address": "800 King St E", "City": "Kitchener", "SiteID": 21 }, "geometry": { "type": "Point", "coordinates": [ 542420.003270479850471, 4810253.997204277664423 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Mike & Ophelia Lazaridis Quantum-Nano Centre", "Address": "200 University Ave. W, UW Ring Road (west drive)", "City": "Waterloo", "SiteID": 1 }, "geometry": { "type": "Point", "coordinates": [ 536857.882318431511521, 4813235.407212590798736 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "University of Waterloo Student Deisgn Centre (UW Engineering 5)", "Address": "200 University Ave. W, UW Ring Road (east drive)", "City": "Waterloo", "SiteID": 2 }, "geometry": { "type": "Point", "coordinates": [ 537205.424039031378925, 4813422.101734662428498 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "OpenText", "Address": "275 Frank Tompa Drive", "City": "Waterloo", "SiteID": 3 }, "geometry": { "type": "Point", "coordinates": [ 536148.248023492284119, 4813877.839151123538613 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Brubacher House", "Address": "248 Columbia W", "City": "Waterloo", "SiteID": 4 }, "geometry": { "type": "Point", "coordinates": [ 536220.258428865112364, 4813686.811275869607925 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Waterloo Regional Police Service, North Division", "Address": "45 Columbia St E", "City": "Waterloo", "SiteID": 5 }, "geometry": { "type": "Point", "coordinates": [ 538692.345452318899333, 4814481.347203731536865 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Waterloo Masjid", "Address": "213 Erb St W", "City": "Waterloo", "SiteID": 6 }, "geometry": { "type": "Point", "coordinates": [ 537638.975054797716439, 4811889.232796765863895 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Log Schoolhouse", "Address": "50 Young St W", "City": "Waterloo", "SiteID": 7 }, "geometry": { "type": "Point", "coordinates": [ 538078.986663457006216, 4812844.481104638427496 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Clay and Glass", "Address": "25 Caroline St N", "City": "Waterloo", "SiteID": 8 }, "geometry": { "type": "Point", "coordinates": [ 538322.000467374920845, 4812554.998775212094188 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Button Factory \/ Waterloo Community Arts Centre", "Address": "25 Regina St S", "City": "Waterloo", "SiteID": 9 }, "geometry": { "type": "Point", "coordinates": [ 538728.998998255468905, 4812493.001473205164075 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "CEI Studio", "Address": "36 Erb St E", "City": "Waterloo", "SiteID": 10 }, "geometry": { "type": "Point", "coordinates": [ 538815.002833225764334, 4812648.999340936541557 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Conestoga Engineering and Information Technology Cambridge", "Address": "850 Fountain St S", "City": "Cambridge", "SiteID": 22 }, "geometry": { "type": "Point", "coordinates": [ 548955.288413419388235, 4803976.445093465968966 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Islamic Centre of Cambridge", "Address": "1550 Dunbar Rd", "City": "Cambridge", "SiteID": 23 }, "geometry": { "type": "Point", "coordinates": [ 555236.997871015220881, 4804393.000211222097278 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Galt Arena Gardnes", "Address": "98 Shade St", "City": "Cambridge", "SiteID": 25 }, "geometry": { "type": "Point", "coordinates": [ 556180.99814888369292, 4801363.996562281623483 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Gore Mutual Insurance Company", "Address": "252 Dundas St N", "City": "Cambridge", "SiteID": 24 }, "geometry": { "type": "Point", "coordinates": [ 556474.995963476598263, 4801386.002040181308985 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Col. J.A. McIntosh, DSO ED Armoury", "Address": "1 Valour Place", "City": "Cambridge", "SiteID": 26 }, "geometry": { "type": "Point", "coordinates": [ 555664.000143873505294, 4800793.002752052620053 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Dickson Public School", "Address": "65 St Andrews St", "City": "Cambridge", "SiteID": 27 }, "geometry": { "type": "Point", "coordinates": [ 555090.308609439060092, 4800499.12646715901792 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "McDougall Cottage", "Address": "89 Grand Ave S", "City": "Cambridge", "SiteID": 28 }, "geometry": { "type": "Point", "coordinates": [ 555328.996700815856457, 4800378.996783716604114 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Middleton Water Pumping Station", "Address": "50 Middleton St", "City": "Cambridge", "SiteID": 29 }, "geometry": { "type": "Point", "coordinates": [ 555194.203591009601951, 4799656.409950340166688 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Brookside Equestrian Centre", "Address": "493 Trussler Rd", "City": "Wilmot", "SiteID": 31 }, "geometry": { "type": "Point", "coordinates": [ 536598.826969719491899, 4805891.513618694618344 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Laepple Organic Farm", "Address": "2298 Bleams Rd", "City": "Wilmot", "SiteID": 33 }, "geometry": { "type": "Point", "coordinates": [ 530972.360486968420446, 4804244.629081439226866 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "St. James Wilmot Church", "Address": "4339 Huron Rd", "City": "Wilmot", "SiteID": 34 }, "geometry": { "type": "Point", "coordinates": [ 523966.169806939549744, 4799423.001750150695443 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "St. Georges Anglican Church", "Address": "3 Byron St", "City": "Wilmot", "SiteID": 35 }, "geometry": { "type": "Point", "coordinates": [ 523094.268554850481451, 4802843.541671985760331 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Waterloo Region Emergency Services Training and Research Complex, UW Fire Research Lab", "Address": "1001 Erbs Rd", "City": "Wilmot", "SiteID": 30 }, "geometry": { "type": "Point", "coordinates": [ 533593.671612104400992, 4809773.417626790702343 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Kitchener-Waterloo Gurdawara (Golden Triangle Sikh Association)", "Address": "2070 Snyders Rd E", "City": "Wilmot", "SiteID": 32 }, "geometry": { "type": "Point", "coordinates": [ 533832.41544621437788, 4807503.066855169832706 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Detweiler Meetinghouse", "Address": "3445 Roseville Rd", "City": "North Humfries", "SiteID": 38 }, "geometry": { "type": "Point", "coordinates": [ 541311.003440986387432, 4798313.446378299966455 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Black Horse corners Heritage Buildings", "Address": "1784 Northumberland St", "City": "North Humfries", "SiteID": 39 }, "geometry": { "type": "Point", "coordinates": [ 541771.451085946522653, 4797513.347366165369749 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Greenfield Village Heritage Walking Tour", "Address": "3185 Greenfield Rd", "City": "North Dumfries", "SiteID": 40 }, "geometry": { "type": "Point", "coordinates": [ 542492.519824845716357, 4794276.899337351322174 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "The Centre in the Square", "Address": "101 Queen St. N", "City": "Kitchener", "SiteID": 16 }, "geometry": { "type": "Point", "coordinates": [ 541768.44556216429919, 4811392.205352986231446 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "rare Eco Centre", "Address": "768 Blair Rd", "City": "North Dumfries", "SiteID": 36 }, "geometry": { "type": "Point", "coordinates": [ 552041.97146961838007, 4803593.357186758890748 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "North House", "Address": "681 Blair Rd", "City": "North Dumfries", "SiteID": 37 }, "geometry": { "type": "Point", "coordinates": [ 552332.220223981887102, 4803005.77226459980011 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Former Ayr Carnegie Library \/ Ayr Financial Services", "Address": "92 Stanley St.", "City": "North Dumfries", "SiteID": 42 }, "geometry": { "type": "Point", "coordinates": [ 544644.062388630933128, 4792686.639402821660042 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Former Canadian Bank of Commerce \/ Robson Carpenter LLP", "Address": "10 Northumberland St.", "City": "North Dumfries", "SiteID": 41 }, "geometry": { "type": "Point", "coordinates": [ 544533.99550183059182, 4792665.472693821415305 ] } }
+
+]
+}
