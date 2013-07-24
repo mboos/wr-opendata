@@ -2,17 +2,17 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "DepotName": "Elmira Waste Transfer Station", "FullAddres": "155 Howard Avenue", "Municpalit": "Woolwich", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ 536315.992877358221449, 4826370.876166052184999 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Elmira Waste Transfer Station", "FullAddres": "155 Howard Avenue", "Municpalit": "Woolwich", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ -80.550126829105778, 43.589422740284036 ] } }
 ,
-{ "type": "Feature", "properties": { "DepotName": "Crosshill Waste Transfer Station", "FullAddres": "2730 Manser Road & William Hastings Line", "Municpalit": "Wellesley", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ 519298.12046903866576, 4820874.334971116855741 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Crosshill Waste Transfer Station", "FullAddres": "2730 Manser Road & William Hastings Line", "Municpalit": "Wellesley", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ -80.761132885085232, 43.540566415268344 ] } }
 ,
-{ "type": "Feature", "properties": { "DepotName": "Wilmot Waste Transfer Station", "FullAddres": "1788 Huron Road & Queen Street", "Municpalit": "Wilmot", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ 535359.722314345301129, 4802132.719772689044476 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Wilmot Waste Transfer Station", "FullAddres": "1788 Huron Road & Queen Street", "Municpalit": "Wilmot", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ -80.563546349794677, 43.371226708591031 ] } }
 ,
-{ "type": "Feature", "properties": { "DepotName": "Ayr Waste Transfer Station", "FullAddres": "1766 Reidsville Road & Greenfield Road", "Municpalit": "North Dumfries", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ 545774.67718169267755, 4795158.819289963692427 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Ayr Waste Transfer Station", "FullAddres": "1766 Reidsville Road & Greenfield Road", "Municpalit": "North Dumfries", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ -80.435579438996243, 43.307870075481922 ] } }
 ,
-{ "type": "Feature", "properties": { "DepotName": "Waterloo Landfill", "FullAddres": "925 Erb Street West", "Municpalit": "Waterloo", "DepotType": "Landfill" }, "geometry": { "type": "Point", "coordinates": [ 534147.888299064943567, 4810045.409167646430433 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Waterloo Landfill", "FullAddres": "925 Erb Street West", "Municpalit": "Waterloo", "DepotType": "Landfill" }, "geometry": { "type": "Point", "coordinates": [ -80.578009599257584, 43.442530276347014 ] } }
 ,
-{ "type": "Feature", "properties": { "DepotName": "Cambridge Waste Transfer Station", "FullAddres": "201 Savage Drive", "Municpalit": "Cambridge", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ 558728.090478046215139, 4802286.648440954275429 ] } }
+{ "type": "Feature", "properties": { "DepotName": "Cambridge Waste Transfer Station", "FullAddres": "201 Savage Drive", "Municpalit": "Cambridge", "DepotType": "Transfer" }, "geometry": { "type": "Point", "coordinates": [ -80.275106557412883, 43.37114824663059 ] } }
 
 ]
 }
