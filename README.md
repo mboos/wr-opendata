@@ -3,5 +3,5 @@
 GeoJSON and TopoJSON representations of Open Data in Waterloo Region. 
 Because sometimes shapefiles and KML aren't fun to parse.
 
-Sources:
+## Sources:
 * [Region of Waterloo's Open Data](http://regionofwaterloo.ca/en/regionalGovernment/OpenDataHome.asp) - [License](http://regionofwaterloo.ca/en/regionalGovernment/OpenDataLicence.asp) 
