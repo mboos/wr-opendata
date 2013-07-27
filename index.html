@@ -61,6 +61,11 @@
             minZoom: 12
         }).addTo(map);
         
+        $.getJSON(datasets[0].url, function(data) {
+          datasets[0].data = data;
+          geodata = topojson.feature(features, features.objects.feature);
+          L.geoJson(data).addTo(map);
+        });
         //sheds = topojson.feature(features, features.objects.feature);
         //L.geoJson(sheds, {style: styleShed}).addTo(map);
         
