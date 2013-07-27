@@ -1,0 +1,42 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Start_Date": "2013\/05\/11", "End_Date": "2013\/05\/11", "Event": "Waterloo Regional Police Services Open House", "Website": "www.wrps.on.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.387879368373973, 43.418561670678869 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/05\/27", "End_Date": "2013\/05\/31", "Event": "Waterloo-Wellington Children's Groundwater Festival", "Website": "www.wwcgf.com" }, "geometry": { "type": "Point", "coordinates": [ -80.439261077981811, 43.400465101597597 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/01", "End_Date": "2013\/06\/01", "Event": "ECOFest", "Website": "www.regionofwaterloo.ca\/ecofest" }, "geometry": { "type": "Point", "coordinates": [ -80.439261077981811, 43.400465101597597 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/09", "End_Date": "2013\/06\/09", "Event": "Cambridge Tour de Grand", "Website": "www.cambridgetourdegrand.com" }, "geometry": { "type": "Point", "coordinates": [ -80.305230316023213, 43.342560037699769 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/15", "End_Date": "2013\/06\/15", "Event": "City of Waterloo Service Centre Open House", "Website": "www.waterloo.ca\/en\/government\/ServiceCentreOpenHouse.asp" }, "geometry": { "type": "Point", "coordinates": [ -80.512638618221047, 43.489899628482753 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/16", "End_Date": "2013\/06\/16", "Event": "Open Streets UpTown Waterloo", "Website": "www.openstreetsutw.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.523391610142781, 43.463400132407507 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/21", "End_Date": "2013\/06\/21", "Event": "Waterloo Summer Solstice", "Website": "www.waterloo.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.499263850159466, 43.44564857059121 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/06\/22", "End_Date": "2013\/06\/23", "Event": "Kitchener-Waterloo Multicultural Festival", "Website": "www.kwmc.on.ca\/content\/multicultural-festival" }, "geometry": { "type": "Point", "coordinates": [ -80.499263850159466, 43.44564857059121 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/01", "End_Date": "2013\/07\/01", "Event": "City of Kitchener Canada Day", "Website": "www.kitchener.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.492516422406254, 43.451699261374323 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/06", "End_Date": "2013\/07\/06", "Event": "Cherry Park Festival", "Website": "www.cherrypark.blogspot.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.507214587625256, 43.449690047738805 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/12", "End_Date": "2013\/07\/12", "Event": "Cruising on King", "Website": "www.kitchener.ca\/en\/livinginkitchener\/CruisingOnKing.asp" }, "geometry": { "type": "Point", "coordinates": [ -80.492516422406254, 43.451699261374323 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/13", "End_Date": "2013\/07\/13", "Event": "Kitchener-Waterloo LatinFest", "Website": "www.nerudaproductions.com\/" }, "geometry": { "type": "Point", "coordinates": [ -80.523391610142781, 43.463400132407507 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/19", "End_Date": "2013\/07\/21", "Event": "UpTown Waterloo Jazz Festival", "Website": "www.uptownwaterloojazz.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.523391610142781, 43.463400132407507 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/07\/27", "End_Date": "2013\/07\/27", "Event": "Rock and Rumble Motorcycle Show", "Website": "www.kitchener.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.492516422406254, 43.451699261374323 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/08\/02", "End_Date": "2013\/08\/04", "Event": "Mill Race Fold Festival", "Website": "www.millracefolksociety.com" }, "geometry": { "type": "Point", "coordinates": [ -80.315890077777823, 43.36516326569491 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/08\/18", "End_Date": "2013\/08\/18", "Event": "KidsPark", "Website": "www.kidspark.ca\/Site\/kidspark.html" }, "geometry": { "type": "Point", "coordinates": [ -80.499263850159466, 43.44564857059121 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/08\/23", "End_Date": "2013\/08\/25", "Event": "Waterloo Busker Carnival", "Website": "www.waterloo-buskers.com" }, "geometry": { "type": "Point", "coordinates": [ -80.523391610142781, 43.463400132407507 ] } }
+,
+{ "type": "Feature", "properties": { "Start_Date": "2013\/09\/15", "End_Date": "2013\/09\/15", "Event": "Open Streets UpTown Waterloo", "Website": "www.openstreetsutw.ca" }, "geometry": { "type": "Point", "coordinates": [ -80.523391610142781, 43.463400132407507 ] } }
+
+]
+}

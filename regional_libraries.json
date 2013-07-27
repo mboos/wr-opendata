@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "Ayr Branch Library", "Address": "137 Stanley Street", "Organizati": "Region Of Waterloo Library", "Phone": "519-632-7298", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/ayrbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.448776387708563, 43.285496307451098 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Baden Branch Library", "Address": "115 Snyder'S Road East", "Organizati": "Region Of Waterloo Library", "Phone": "519-634-8933", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/badenbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.664279301841859, 43.404192500964207 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Bloomingdale Branch Library", "Address": "860 Sawmill Road East", "Organizati": "Region Of Waterloo Library", "Phone": "519-745-3151", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/bloomingdalebranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.462603712609322, 43.510421288374815 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Elmira Branch Library", "Address": "65 Arthur Street South", "Organizati": "Region Of Waterloo Library", "Phone": "519-669-5477", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/elmirabranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.558709982421107, 43.598101287869831 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Linwood Branch Library", "Address": "5279 Ament Line", "Organizati": "Region Of Waterloo Library", "Phone": "519-698-2700", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/linwoodbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.729202641288651, 43.583800493264725 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "New Dundee Branch Library", "Address": "136 Main Street", "Organizati": "Region Of Waterloo Library", "Phone": "519-696-3041", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/newdundeebranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.536371444751651, 43.352004496052153 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "New Hamburg Branch Library", "Address": "145 Huron Street", "Organizati": "Region Of Waterloo Library", "Phone": "519-662-1112", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/newhamburgbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.712332942053891, 43.378066390381854 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "St. Clements Branch Library", "Address": "3605 Lobsinger Line", "Organizati": "Region Of Waterloo Library", "Phone": "519-699-4341", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/stclementsbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.652288769254582, 43.523325079531546 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "St. Jacobs Branch Library", "Address": "29 Queensway Drive", "Organizati": "Region Of Waterloo Library", "Phone": "519-664-3443", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/stjacobsbranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.554647611325791, 43.539090193501011 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Wellesley Branch Library", "Address": "1137 Henry Street", "Organizati": "Region Of Waterloo Library", "Phone": "519-656-2001", "Website": "http:\/\/www.rwl.library.on.ca\/index.html?page=\/wellesleybranch.html" }, "geometry": { "type": "Point", "coordinates": [ -80.763900180183157, 43.47882679855423 ] } }
+
+]
+}
