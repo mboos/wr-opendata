@@ -61,7 +61,7 @@
             minZoom: 12
         }).addTo(map);
         
-        $.getJSON(datasets[0].url, function(data) {
+        $.getJSON(datasets[0].url + '?jsoncallback=?', function(data) {
           datasets[0].data = data;
           geodata = topojson.feature(features, features.objects.feature);
           L.geoJson(data).addTo(map);
