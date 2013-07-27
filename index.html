@@ -39,16 +39,36 @@
     </style>
     
     <script>
+      function onEachFeature(feature, layer) {
+        // does this feature have a property named popupContent?
+        if (feature.properties) {
+          html = '<table>'
+          $.each(feature.properties, function( k, v ) {
+            html += '<tr><td>' + k + '</td><td>' + v + '</td></tr>';
+          });
+          html+= '</table>';
+          layer.bindPopup(feature.properties.popupContent);
+        }
+      }
+      
+      
       datasets = [
         {
           name: 'GRT Routes',
           url: 'grt_routes.topojson',
           ref: 'grt_routes',
-          data: null,
           style: function(feature) {
             return { color: 'rgb(' + ((feature.properties.Route*10) % 256) + ',0,' + ((255-feature.properties.Route*10) % 256) + ')'};
           }
-        }
+        },
+        {
+          name: 'GRT Stops',
+          url: 'grt_stops.topojson',
+          ref: 'grt_stops',
+          style: function(feature) {
+            return {};
+          }
+        },
       ];
         
       $(document).ready(function(){
@@ -65,7 +85,9 @@
         $.getJSON(datasets[0].url, function(data) {
           datasets[0].data = data;
           geodata = topojson.feature(data, data.objects[datasets[0].ref]);
-          L.geoJson(geodata, {style: datasets[0].style}).addTo(map);
+          datasets[0].layer = L.geoJson(geodata, {
+            style: datasets[0].style,
+            onEachFeature: onEachFeature}).addTo(map);
         });
         //sheds = topojson.feature(features, features.objects.feature);
         //L.geoJson(sheds, {style: styleShed}).addTo(map);
