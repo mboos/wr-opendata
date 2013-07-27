@@ -42,7 +42,7 @@
       datasets = [
         {
           name: 'GRT Routes',
-          url: 'https://raw.github.com/mboos/wr-opendata/master/grt_routes.topojson',
+          url: 'grt_routes.topojson',
           data: null,
           style: function(feature) {
             return { color: 'rgb(' + ((255-feature.properties.Route) % 256) + ',0,0)'};
@@ -61,7 +61,7 @@
             minZoom: 12
         }).addTo(map);
         
-        $.getJSON(datasets[0].url + '?jsoncallback=?', function(data) {
+        $.getJSON(datasets[0].url, function(data) {
           datasets[0].data = data;
           geodata = topojson.feature(features, features.objects.feature);
           L.geoJson(data).addTo(map);
