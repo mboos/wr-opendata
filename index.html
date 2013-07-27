@@ -65,7 +65,7 @@
         $.getJSON(datasets[0].url, function(data) {
           datasets[0].data = data;
           geodata = topojson.feature(data, data.objects[datasets[0].ref]);
-          L.geoJson(geodata, datasets[0].style).addTo(map);
+          L.geoJson(geodata, {style: datasets[0].style}).addTo(map);
         });
         //sheds = topojson.feature(features, features.objects.feature);
         //L.geoJson(sheds, {style: styleShed}).addTo(map);
