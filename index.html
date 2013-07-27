@@ -43,9 +43,10 @@
         {
           name: 'GRT Routes',
           url: 'grt_routes.topojson',
+          ref: 'grt_routes',
           data: null,
           style: function(feature) {
-            return { color: 'rgb(0,0,' + ((255-feature.properties.Route) % 256) + ')'};
+            return { color: 'rgb(' + ((feature.properties.Route*10) % 256) + ',0,' + ((255-feature.properties.Route*10) % 256) + ')'};
           }
         }
       ];
@@ -63,7 +64,7 @@
         
         $.getJSON(datasets[0].url, function(data) {
           datasets[0].data = data;
-          geodata = topojson.feature(data, data.objects.grt_routes);
+          geodata = topojson.feature(data, data.objects[datasets[0].ref]);
           L.geoJson(geodata, datasets[0].style).addTo(map);
         });
         //sheds = topojson.feature(features, features.objects.feature);
