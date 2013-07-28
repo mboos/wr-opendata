@@ -118,8 +118,8 @@
                 dataset.ref + '"/>' + dataset.name + '<br/>'
               $('#'+dataset.ref).change(function() {
                 if ($('#'+dataset.ref).attr('checked')) {
-                  if (datasets.layer) {
-                    datasets.layer.addTo(map);
+                  if (dataset.layer) {
+                    dataset.layer.addTo(map);
                   } else {
                     $.getJSON(dataset.url, function(data) {
                       dataset.data = data;
@@ -130,7 +130,7 @@
                     });
                   }
                 } else {
-                  datasets.layer.removeFrom(map);
+                  dataset.layer.removeFrom(map);
                 }
               });
             });
