@@ -83,6 +83,31 @@
             return {};
           }
         },
+        {
+          name: 'Blue W',
+          url: 'BlueW.topojson',
+          ref: 'BlueW',
+          icon: 'icons/water-12.png', 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
+          name: 'Creeks',
+          url: 'creeks.topojson',
+          ref: 'creeks',
+          style: function(feature) {
+            return { color: '#6CF'};
+          }
+        },
+        {
+          name: 'Rivers',
+          url: 'rivers.topojson',
+          ref: 'rivers',
+          style: function(feature) {
+            return { color: '#369'};
+          }
+        },
       ];
         
       $(document).ready(function(){
@@ -95,16 +120,6 @@
             attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap contributors, ODbL</a>',
             minZoom: 12
         }).addTo(map);
-        
-        //$.getJSON(datasets[0].url, function(data) {
-        //  datasets[0].data = data;
-        //  geodata = topojson.feature(data, data.objects[datasets[0].ref]);
-        //  datasets[0].layer = L.geoJson(geodata, {
-        //    style: datasets[0].style,
-        //    onEachFeature: onEachFeature}).addTo(map);
-        //});
-        //sheds = topojson.feature(features, features.objects.feature);
-        //L.geoJson(sheds, {style: styleShed}).addTo(map);
         
         L.control.scale().addTo(map);
         
