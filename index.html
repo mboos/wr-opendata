@@ -107,6 +107,15 @@
           style: function(feature) {
             return { color: '#369'};
           }
+        },
+        {
+          name: 'Doors Open Waterloo Region 2013',
+          url: 'doors_open_2013.json',
+          ref: 'doors_open_2013',
+          icon: 'icons/town-hall-12.png', 
+          style: function(feature) {
+            return {};
+          }
         }
       ];
         
@@ -135,10 +144,6 @@
               
             });
             
-            div.innerHTML += '<i style="background: #f00"></i> Rapid Transit 0&ndash;400 m <br/>';
-            div.innerHTML += '<i style="background: #f80"></i> Rapid Transit 400&ndash;800 m <br/>';
-            div.innerHTML += '<i style="background: #00f"></i> Express Bus 0&ndash;400 m';
-        
             return div;
         };
         
@@ -152,7 +157,11 @@
               } else {
                 $.getJSON(dataset.url, function(data) {
                   dataset.data = data;
-                  geodata = topojson.feature(data, data.objects[dataset.ref]);
+                  if (dataset.url.indexOf('topojson') > 0) {
+                    geodata = topojson.feature(data, data.objects[dataset.ref]);
+                  } else {
+                    geodata = data
+                  }
                   if (dataset.icon) {
                     dataset.layer = L.geoJson(geodata, {
                       style: dataset.style,
