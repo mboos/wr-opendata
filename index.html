@@ -15,14 +15,13 @@
            }
       .leaflet-popup-content table {
         border-collapse:collapse;
-        border-color: grey;
+        border-color: #eee;
         border-width: 1px;
-        font-size: 12px/1.5;
+        font-size: 11px;
       }
-      .leaflet-popup-content tr:nth-child(even) {background: #EEE}
+      .leaflet-popup-content tr:nth-child(even) {background: #f7f7f7}
       .leaflet-popup-content tr:nth-child(odd) {background: #FFF}
       .leaflet-popup-content td {padding: 5px;}
-      .fieldName {font-weight: bold}
       .info {
           padding: 6px 8px;
           font: 14px/16px Arial, Helvetica, sans-serif;
@@ -54,7 +53,7 @@
         if (feature.properties) {
           html = '<table>'
           $.each(feature.properties, function( k, v ) {
-            html += '<tr><td class="fieldName">' + k + '</td><td>' + v + '</td></tr>';
+            html += '<tr><th>' + k + '</td><td>' + v + '</td></tr>';
           });
           html+= '</table>';
           layer.bindPopup(html, {closeButton:false});
