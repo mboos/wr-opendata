@@ -70,6 +70,7 @@
           name: 'GRT Routes',
           url: 'grt_routes.topojson',
           ref: 'grt_routes',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/GRT_Routes.asp',
           style: function(feature) {
             return { color: '#' + Math.floor(Math.random()*16777215).toString(16)};
           }
@@ -78,15 +79,17 @@
           name: 'GRT Stops',
           url: 'grt_stops.topojson',
           ref: 'grt_stops',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/GRT_Stops.asp',
           icon: 'icons/bus-12.png', 
           style: function(feature) {
             return {};
           }
         },
         {
-          name: 'Blue W',
+          name: 'Blue W Program Locations',
           url: 'BlueW.topojson',
           ref: 'BlueW',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/blue_w_program_locations.asp',
           icon: 'icons/water-12.png', 
           style: function(feature) {
             return {};
@@ -96,6 +99,7 @@
           name: 'Water Wagon',
           url: 'water_wagon.json',
           ref: 'water_wagon',
+          href: 'http://regionofwaterloo.ca/en/regionalGovernment/water_wagon_schedule_2013.asp',
           icon: 'icons/glass-12.png', 
           style: function(feature) {
             return {};
@@ -105,6 +109,7 @@
           name: 'Creeks',
           url: 'creeks.topojson',
           ref: 'creeks',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/Creeks.asp',
           style: function(feature) {
             return { color: '#6CF'};
           }
@@ -113,6 +118,7 @@
           name: 'Rivers',
           url: 'rivers.topojson',
           ref: 'rivers',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/Rivers.asp',
           style: function(feature) {
             return { color: '#369'};
           }
@@ -121,6 +127,7 @@
           name: 'Doors Open Waterloo Region 2013',
           url: 'doors_open_2013.json',
           ref: 'doors_open_2013',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/doorsopen2013.asp',
           icon: 'icons/town-hall-12.png', 
           style: function(feature) {
             return {};
@@ -130,6 +137,7 @@
           name: 'Food Facilities',
           url: 'food_facilities.topojson',
           ref: 'food_facilities',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/FoodPremiseDataset.asp',
           icon: 'icons/restaurant-12.png', 
           style: function(feature) {
             return {};
@@ -139,6 +147,7 @@
           name: 'Regional Libraries',
           url: 'regional_libraries.json',
           ref: 'regional_libraries',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/RegionalLibraries.asp',
           icon: 'icons/library-12.png', 
           style: function(feature) {
             return {};
@@ -148,6 +157,7 @@
           name: 'Regional Boundarieas',
           url: 'regional_boundaries.topojson',
           ref: 'regional_boundaries',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/RegionalBoundary.asp',
           style: function(feature) {
             if (feature.properties.Municipali == 'Kitchener') {
               return { color: '#006f4c'};
@@ -171,6 +181,7 @@
           name: 'Ward Boundaries',
           url: 'ward_boundaries.topojson',
           ref: 'ward_boundaries',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/WardBoundaries.asp',
           style: function(feature) {
             return { color: '#' + Math.floor(Math.random()*16777215).toString(16) };
           }
@@ -179,6 +190,7 @@
           name: 'Regional Cycling',
           url: 'regional_cycling.topojson',
           ref: 'regional_cycling',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/RegionalCycling.asp',
           style: function(feature) {
             if (feature.properties.PathType == 'Bike Lane') {
               return { color: '#f00', weight: feature.properties.Width*4};
@@ -221,7 +233,8 @@
             
             datasets.map(function(dataset) {
               div.innerHTML += '<input type="checkbox" id="' +
-                dataset.ref + '" name="a" value="b"/>' + dataset.name + '<br/>'
+                dataset.ref + '" name="a" value="b"/><a href="' +
+                dataset.href + '">' + dataset.name + '</a><br/>'
               
             });
             
