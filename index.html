@@ -157,6 +157,21 @@
           }
         },
         {
+          name: 'Waterloo Facilities',
+          url: 'waterloo_facilities.json',
+          ref: 'waterloo_facilities',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Facilities',
+          icon: function(f) {
+            if (f.properties.Type == 'Sports or Recreation Facility') {
+              return 'icons/library-12.png'
+            }
+            return 'icons/library-12.png'
+          }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
           name: 'Regional Boundarieas',
           url: 'regional_boundaries.topojson',
           ref: 'regional_boundaries',
