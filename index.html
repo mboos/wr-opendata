@@ -143,7 +143,10 @@
                       style: dataset.style,
                       pointToLayer: function(featuer, latlng) {
                         return L.marker(latlng, {icon:
-                                        L.icon({ iconUrl: dataset.icon })
+                                        L.icon({ iconUrl: dataset.icon,
+                                                iconSize: [12, 12],
+                                                iconAnchor: [6, 6],
+                                                popupAnchor: [0, -7],})
                                         });
                       },
                       onEachFeature: onEachFeature}).addTo(map);
