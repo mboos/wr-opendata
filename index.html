@@ -214,7 +214,7 @@
           name: 'Waterloo Bicycle Lanes',
           url: 'waterloo_cycling.topojson',
           ref: 'waterloo_cycling',
-          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/BicycleLanes#param=NOFILTER--DataView--Results',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/BicycleLanes',
           style: function(feature) {
             if (feature.properties.FACILITY == 'BL') {
               return { color: '#f00', weight: feature.properties.Width*4};
@@ -222,6 +222,23 @@
               return { color: '#990', weight: (feature.properties.Width-3.3)*4};
             } else if (feature.properties.PathType == 'PS') {
               return { color: '#f00', dashArray: '5, 8', weight: feature.properties.Width*2};
+            } 
+            return { color: 'black' };
+          }
+        },
+        {
+          name: 'Waterloo Trails',
+          url: 'waterloo_trails.topojson',
+          ref: 'waterloo_trails',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Trails',
+          style: function(feature) {
+            if (feature.properties.PATH_TYPE == 'Sidewalk' ||
+                feature.properties.PATH_TYPE == 'Walkway') {
+              return { color: '#999', weight: 2};
+            } else if (feature.properties.PATH_TYPE == 'Community Trail') {
+              return { color: '#00f', dashArray: '5, 8'};
+            } else if (feature.properties.PATH_TYPE == 'Multi Use') {
+              return { color: '#00f'};
             } 
             return { color: 'black' };
           }
