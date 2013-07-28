@@ -113,7 +113,7 @@
         
             var div = L.DomUtil.create('div', 'info legend');
             
-            $.each(datasets, function(dataset) {
+            datasets.map(function(dataset) {
               div.innerHTML += '<input type="checkbox" id="' +
                 dataset.ref + '"/>' + dataset.name + '<br/>'
               $('#'+dataset.ref).change(function() {
