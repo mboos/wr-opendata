@@ -217,11 +217,11 @@
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/BicycleLanes',
           style: function(feature) {
             if (feature.properties.FACILITY == 'BL') {
-              return { color: '#f00', weight: feature.properties.Width*4};
-            } else if (feature.properties.PathType == 'SR') {
-              return { color: '#990', weight: (feature.properties.Width-3.3)*4};
-            } else if (feature.properties.PathType == 'PS') {
-              return { color: '#f00', dashArray: '5, 8', weight: feature.properties.Width*2};
+              return { color: '#f00'};
+            } else if (feature.properties.FACILITY == 'SR') {
+              return { color: '#990'};
+            } else if (feature.properties.FACILITY == 'PS') {
+              return { color: '#f00', dashArray: '5, 8'};
             } 
             return { color: 'black' };
           }
@@ -249,20 +249,20 @@
           ref: 'waterloo_roads',
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Roads',
           style: function(feature) {
-            if (feature.properties.STREET_CLASS == 'CITY ROAD') {
-              return { color: '#999', weight: 2};
-            } else if (feature.properties.STREET_CLASS == 'MAJOR COLLECTOR') {
-              return { color: '#999', weight: 5};
-            } else if (feature.properties.STREET_CLASS == 'MINOR COLLECTOR') {
-              return { color: '#999', weight: 3};
-            } else if (feature.properties.STREET_CLASS == 'REGIONAL ARTERIAL') {
+            if (feature.properties.STREET_CLA == 'CITY ROAD') {
+              return { color: '#333', weight: 2};
+            } else if (feature.properties.STREET_CLA == 'MAJOR COLLECTOR') {
+              return { color: '#333', weight: 5};
+            } else if (feature.properties.STREET_CLA == 'MINOR COLLECTOR') {
+              return { color: '#333', weight: 3};
+            } else if (feature.properties.STREET_CLA == 'REGIONAL ARTERIAL') {
               return { color: '#933', weight: 8};
-            } else if (feature.properties.STREET_CLASS == 'CITY ARTERIAL') {
-              return { color: '#999', weight: 6};
-            } else if (feature.properties.STREET_CLASS == 'EXPRESSWAY') {
+            } else if (feature.properties.STREET_CLA == 'CITY ARTERIAL') {
+              return { color: '#333', weight: 6};
+            } else if (feature.properties.STREET_CLA == 'EXPRESSWAY') {
               return { color: '#939', weight: 10};
-            } else if (feature.properties.STREET_CLASS == 'PRIVATE') {
-              return { color: '#999', weight: 1};
+            } else if (feature.properties.STREET_CLA == 'PRIVATE') {
+              return { color: '#333', weight: 1};
             }
             return { color: 'black' };
           }
