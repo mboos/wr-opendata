@@ -181,19 +181,19 @@
           ref: 'regional_cycling',
           style: function(feature) {
             if (feature.properties.PathType == 'Bike Lane') {
-              return { color: '#f00', weight: feature.properties.Width*2};
+              return { color: '#f00', weight: feature.properties.Width*4};
             } else if (feature.properties.PathType == 'Wide Curb Lane') {
-              return { color: '#990', dashArray: '3', weight: (feature.properties.Width-3.3)*2};
+              return { color: '#990', weight: (feature.properties.Width-3.3)*4};
             } else if (feature.properties.PathType == 'Paved Shoulder') {
-              return { color: '#990', dashArray: '1', weight: feature.properties.Width*2};
+              return { color: '#f00', dashArray: '5, 5', weight: feature.properties.Width*4};
             } else if (feature.properties.PathType == 'Off-Road Multi-Use Trail') {
-              return { color: '#00f', weight: feature.properties.Width};
+              return { color: '#00f', weight: feature.properties.Width*2};
             } else if (feature.properties.PathType == 'Shared Bike\/MV Lane') {
-              return { color: '#990', weight: (feature.properties.Width-3.3)*2};
+              return { color: '#990', dashArray: '5, 5', weight: (feature.properties.Width-3.3)*4};
             } else if (feature.properties.PathType == 'Shared Bike\/Parking Lane') {
-              return { color: '#f00', dashArray: '2', weight: feature.properties.Width};
+              return { color: '#f00', dashArray: '3, 3', weight: feature.properties.Width*2};
             } else if (feature.properties.PathType == 'Boulevard Multi-Use Trail') {
-              return { color: '#00f', weight: feature.properties.Width};
+              return { color: '#00f', weight: feature.properties.Width*2};
             }
             return { color: 'black' };
           }
