@@ -95,13 +95,13 @@
             minZoom: 12
         }).addTo(map);
         
-        $.getJSON(datasets[0].url, function(data) {
-          datasets[0].data = data;
-          geodata = topojson.feature(data, data.objects[datasets[0].ref]);
-          datasets[0].layer = L.geoJson(geodata, {
-            style: datasets[0].style,
-            onEachFeature: onEachFeature}).addTo(map);
-        });
+        //$.getJSON(datasets[0].url, function(data) {
+        //  datasets[0].data = data;
+        //  geodata = topojson.feature(data, data.objects[datasets[0].ref]);
+        //  datasets[0].layer = L.geoJson(geodata, {
+        //    style: datasets[0].style,
+        //    onEachFeature: onEachFeature}).addTo(map);
+        //});
         //sheds = topojson.feature(features, features.objects.feature);
         //L.geoJson(sheds, {style: styleShed}).addTo(map);
         
@@ -112,6 +112,28 @@
         legend.onAdd = function (map) {
         
             var div = L.DomUtil.create('div', 'info legend');
+            
+            $.each(datasets, function(dataset) {
+              div.innerHTML += '<input type="checkbox" id="' +
+                dataset.ref + '"/>' + dataset.name + '<br/>'
+              $('#'+dataset.ref).change(function() {
+                if ($('#'+dataset.ref).attr('checked')) {
+                  if (datasets.layer) {
+                    datasets.layer.addTo(map);
+                  } else {
+                    $.getJSON(dataset.url, function(data) {
+                      dataset.data = data;
+                      geodata = topojson.feature(data, data.objects[dataset.ref]);
+                      dataset.layer = L.geoJson(geodata, {
+                        style: dataset.style,
+                        onEachFeature: onEachFeature}).addTo(map);
+                    });
+                  }
+                } else {
+                  datasets.layer.removeFrom(map);
+                }
+              });
+            });
             
             div.innerHTML += '<i style="background: #f00"></i> Rapid Transit 0&ndash;400 m <br/>';
             div.innerHTML += '<i style="background: #f80"></i> Rapid Transit 400&ndash;800 m <br/>';
