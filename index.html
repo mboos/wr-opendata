@@ -116,23 +116,7 @@
             datasets.map(function(dataset) {
               div.innerHTML += '<input type="checkbox" id="' +
                 dataset.ref + '" name="a" value="b"/>' + dataset.name + '<br/>'
-              $('#'+dataset.ref).change(function() {
-                if ($('#'+dataset.ref).attr('checked')) {
-                  if (dataset.layer) {
-                    dataset.layer.addTo(map);
-                  } else {
-                    $.getJSON(dataset.url, function(data) {
-                      dataset.data = data;
-                      geodata = topojson.feature(data, data.objects[dataset.ref]);
-                      dataset.layer = L.geoJson(geodata, {
-                        style: dataset.style,
-                        onEachFeature: onEachFeature}).addTo(map);
-                    });
-                  }
-                } else {
-                  dataset.layer.removeFrom(map);
-                }
-              });
+              
             });
             
             div.innerHTML += '<i style="background: #f00"></i> Rapid Transit 0&ndash;400 m <br/>';
@@ -144,6 +128,25 @@
         
         legend.addTo(map);
         
+        datasets.map(function(dataset) {
+          $('#'+dataset.ref).change(function() {
+            if ($('#'+dataset.ref).attr('checked')) {
+              if (dataset.layer) {
+                dataset.layer.addTo(map);
+              } else {
+                $.getJSON(dataset.url, function(data) {
+                  dataset.data = data;
+                  geodata = topojson.feature(data, data.objects[dataset.ref]);
+                  dataset.layer = L.geoJson(geodata, {
+                    style: dataset.style,
+                    onEachFeature: onEachFeature}).addTo(map);
+                });
+              }
+            } else {
+              dataset.layer.removeFrom(map);
+            }
+          });
+        });
       });
     </script>
   </head>
