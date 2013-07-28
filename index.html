@@ -209,6 +209,22 @@
             }
             return { color: 'black' };
           }
+        },
+        {
+          name: 'Waterloo Bicycle Lanes',
+          url: 'waterloo_cycling.topojson',
+          ref: 'waterloo_cycling',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/BicycleLanes#param=NOFILTER--DataView--Results',
+          style: function(feature) {
+            if (feature.properties.FACILITY == 'BL') {
+              return { color: '#f00', weight: feature.properties.Width*4};
+            } else if (feature.properties.PathType == 'SR') {
+              return { color: '#990', weight: (feature.properties.Width-3.3)*4};
+            } else if (feature.properties.PathType == 'PS') {
+              return { color: '#f00', dashArray: '5, 8', weight: feature.properties.Width*2};
+            } 
+            return { color: 'black' };
+          }
         }
       ];
         
