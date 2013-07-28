@@ -197,7 +197,7 @@
             } else if (feature.properties.PathType == 'Wide Curb Lane') {
               return { color: '#990', weight: (feature.properties.Width-3.3)*4};
             } else if (feature.properties.PathType == 'Paved Shoulder') {
-              return { color: '#f00', dashArray: '5, 8', weight: feature.properties.Width*4};
+              return { color: '#f00', dashArray: '5, 8', weight: feature.properties.Width*2};
             } else if (feature.properties.PathType == 'Off-Road Multi-Use Trail') {
               return { color: '#00f', weight: feature.properties.Width*2};
             } else if (feature.properties.PathType == 'Shared Bike\/MV Lane') {
