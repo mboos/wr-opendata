@@ -49,6 +49,10 @@
           margin-right: 8px;
           opacity: 0.7;
       }
+      .titleDiv {
+        font-size: 24px;
+        text-shadow: 2px 2px #666;
+      }
     </style>
     
     <script>
@@ -308,6 +312,14 @@
         };
         
         legend.addTo(map);
+        
+        var title = L.control({position: 'topright'});
+        title.onAdd = function(map) {
+          var div = L.DomUtil.create('div', 'titleDiv');
+          div.innerHTML += 'Waterloo Region Open Data Browser';
+          return div
+        }
+        title.addTo(map);
         
         datasets.map(function(dataset) {
           $('#'+dataset.ref).change(function() {
