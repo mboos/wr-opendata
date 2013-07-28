@@ -143,6 +143,21 @@
           style: function(feature) {
             return {};
           }
+        },
+        {
+          name: 'Regional Boundarieas',
+          url: 'regional_boundaries.topojson',
+          ref: 'regional_boundaries',
+          style: function(feature) {
+            if (feature.properties.Municipali == 'Kitchener') {
+              return { color: '#006f4c'};
+            } else if (feature.properties.Municipali == 'Waterloo') {
+              return { color: '#000'};
+            } else if (feature.properties.Municipali == 'Cambridge') {
+              return { color: '#209177'};
+            } 
+            return {};
+          }
         }
       ];
         
