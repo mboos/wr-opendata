@@ -84,7 +84,7 @@
           url: 'grt_stops.topojson',
           ref: 'grt_stops',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/GRT_Stops.asp',
-          icon: 'icons/bus-12.png', 
+          icon: function(f) { return 'icons/bus-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -94,7 +94,7 @@
           url: 'BlueW.topojson',
           ref: 'BlueW',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/blue_w_program_locations.asp',
-          icon: 'icons/water-12.png', 
+          icon: function(f) { return 'icons/water-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -104,7 +104,7 @@
           url: 'water_wagon.json',
           ref: 'water_wagon',
           href: 'http://regionofwaterloo.ca/en/regionalGovernment/water_wagon_schedule_2013.asp',
-          icon: 'icons/glass-12.png', 
+          icon: function(f) { return 'icons/glass-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -132,7 +132,7 @@
           url: 'doors_open_2013.json',
           ref: 'doors_open_2013',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/doorsopen2013.asp',
-          icon: 'icons/town-hall-12.png', 
+          icon: function(f) { return 'icons/town-hall-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -142,7 +142,7 @@
           url: 'food_facilities.topojson',
           ref: 'food_facilities',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/FoodPremiseDataset.asp',
-          icon: 'icons/restaurant-12.png', 
+          icon: function(f) { return 'icons/restaurant-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -152,7 +152,7 @@
           url: 'regional_libraries.json',
           ref: 'regional_libraries',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/RegionalLibraries.asp',
-          icon: 'icons/library-12.png', 
+          icon: function(f) { return 'icons/library-12.png' }, 
           style: function(feature) {
             return {};
           }
@@ -273,7 +273,11 @@
             } else if (feature.properties.STREET_CLA == 'CITY ARTERIAL') {
               return { color: '#333', weight: 6};
             } else if (feature.properties.STREET_CLA == 'EXPRESSWAY') {
-              return { color: '#939', weight: 10};
+              if (feature.properties.STREET_TYP == 'RAMP') {
+                return { color: '#939', weight: 3};
+              } else {
+                return { color: '#939', weight: 10};
+              }
             } else if (feature.properties.STREET_CLA == 'PRIVATE') {
               return { color: '#333', weight: 1};
             }
@@ -337,9 +341,9 @@
                   if (dataset.icon) {
                     dataset.layer = L.geoJson(geodata, {
                       style: dataset.style,
-                      pointToLayer: function(featuer, latlng) {
+                      pointToLayer: function(feature, latlng) {
                         return L.marker(latlng, {icon:
-                                        L.icon({ iconUrl: dataset.icon,
+                                        L.icon({ iconUrl: dataset.icon(feature),
                                                 iconSize: [12, 12],
                                                 iconAnchor: [6, 6],
                                                 popupAnchor: [0, -7],})
