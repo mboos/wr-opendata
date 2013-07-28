@@ -283,6 +283,25 @@
             }
             return { color: 'black' };
           }
+        },
+        {
+          name: 'Waste Depots',
+          url: 'waste_depots.json',
+          ref: 'waste_depots',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/WasteDepots.asp',
+          icon: function(f) { return 'icons/waste-basket-12.png' }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
+          name: 'Waste Pickup Schedule',
+          url: 'waste_pickup_schedule.topojson',
+          ref: 'waste_pickup_schedule',
+          href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/WastePickupSchedule.asp',
+          style: function(feature) {
+            return { color: '#' + Math.floor(Math.random()*16777215).toString(16) };
+          }
         }
       ];
         
