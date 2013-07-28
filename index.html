@@ -242,6 +242,30 @@
             } 
             return { color: 'black' };
           }
+        },
+        {
+          name: 'Waterloo Roads',
+          url: 'waterloo_roads.topojson',
+          ref: 'waterloo_roads',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Roads',
+          style: function(feature) {
+            if (feature.properties.STREET_CLASS == 'CITY ROAD') {
+              return { color: '#999', weight: 2};
+            } else if (feature.properties.STREET_CLASS == 'MAJOR COLLECTOR') {
+              return { color: '#999', weight: 5};
+            } else if (feature.properties.STREET_CLASS == 'MINOR COLLECTOR') {
+              return { color: '#999', weight: 3};
+            } else if (feature.properties.STREET_CLASS == 'REGIONAL ARTERIAL') {
+              return { color: '#933', weight: 8};
+            } else if (feature.properties.STREET_CLASS == 'CITY ARTERIAL') {
+              return { color: '#999', weight: 6};
+            } else if (feature.properties.STREET_CLASS == 'EXPRESSWAY') {
+              return { color: '#939', weight: 10};
+            } else if (feature.properties.STREET_CLASS == 'PRIVATE') {
+              return { color: '#999', weight: 1};
+            }
+            return { color: 'black' };
+          }
         }
       ];
         
