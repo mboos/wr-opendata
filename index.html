@@ -78,9 +78,7 @@
           name: 'GRT Stops',
           url: 'grt_stops.topojson',
           ref: 'grt_stops',
-          icon: L.icon({
-              iconUrl: 'bus-12.png'
-          }),
+          icon: 'icons/bus-12.png', 
           style: function(feature) {
             return {};
           }
@@ -144,7 +142,9 @@
                     dataset.layer = L.geoJson(geodata, {
                       style: dataset.style,
                       pointToLayer: function(featuer, latlng) {
-                        return L.marker(latlng, {icon: dataset.icon});
+                        return L.marker(latlng, {icon:
+                                        L.icon({ iconUrl: dataset.icon })
+                                        });
                       },
                       onEachFeature: onEachFeature}).addTo(map);
                   } else {
