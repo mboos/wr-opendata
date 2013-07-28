@@ -172,9 +172,7 @@
           url: 'ward_boundaries.topojson',
           ref: 'ward_boundaries',
           style: function(feature) {
-            i = feature.properties.WardNumber
-            return { color: 'rgb(' + ((i*203) % 256) + ','
-                    + ((i*203+85) %256) + ',' + ((i*203 + 170) % 256) + ')'};
+            return { color: Math.floor(Math.random()*16777215).toString(16) };
           }
         }
       ];
