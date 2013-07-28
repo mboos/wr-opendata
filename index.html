@@ -13,6 +13,9 @@
               margin: 0px;
               /*width:75%;*/
            }
+      .leaflet-popup-content tr:nth-child(even) {background: #CCC}
+      .leaflet-popup-content tr:nth-child(odd) {background: #FFF}
+      .fieldName {font-weight: bold}
       .info {
           padding: 6px 8px;
           font: 14px/16px Arial, Helvetica, sans-serif;
@@ -44,7 +47,7 @@
         if (feature.properties) {
           html = '<table>'
           $.each(feature.properties, function( k, v ) {
-            html += '<tr><td>' + k + '</td><td>' + v + '</td></tr>';
+            html += '<tr><td class="fieldName">' + k + '</td><td>' + v + '</td></tr>';
           });
           html+= '</table>';
           layer.bindPopup(html);
