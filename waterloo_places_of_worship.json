@@ -1,0 +1,98 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Waterloo North Mennonite Church", "ADDRESS": "100 Benjamin Rd", "LATITUDE": "43.5055383670001", "LONGITUDE": "-80.555277144" }, "geometry": { "type": "Point", "coordinates": [ -80.555277143999945, 43.505538367000042 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "All Saints Anglican Church", "ADDRESS": "685 HIGHPOINT AVE", "LATITUDE": "43.4904681080001", "LONGITUDE": "-80.566312477" }, "geometry": { "type": "Point", "coordinates": [ -80.56631247699994, 43.490468108000073 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Christian Fellowship Church", "ADDRESS": "315 NORTHLAKE DR", "LATITUDE": "43.5001826710001", "LONGITUDE": "-80.554043933" }, "geometry": { "type": "Point", "coordinates": [ -80.554043932999946, 43.500182671000061 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Jehovah's Witnesses", "ADDRESS": "185 SWALLOW ST", "LATITUDE": "43.5020859370001", "LONGITUDE": "-80.554426789" }, "geometry": { "type": "Point", "coordinates": [ -80.55442678899999, 43.502085937000061 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Trinity Evangelical Missionary Church", "ADDRESS": "330 CONSERVATION DR", "LATITUDE": "43.4945345360001", "LONGITUDE": "-80.570717215" }, "geometry": { "type": "Point", "coordinates": [ -80.570717214999945, 43.49453453600006 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "The Cedars \/ Temple Shalom \/ Westminster United Church", "ADDRESS": "543 BEECHWOOD DR", "LATITUDE": "43.4495797940001", "LONGITUDE": "-80.562614099" }, "geometry": { "type": "Point", "coordinates": [ -80.562614098999973, 43.449579794000044 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Chinese Alliance Church K-W", "ADDRESS": "612 ERB ST W", "LATITUDE": "43.4483196910001", "LONGITUDE": "-80.566537821" }, "geometry": { "type": "Point", "coordinates": [ -80.56653782099994, 43.448319691000052 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. Paul's Evangelical", "ADDRESS": "796 ERBSVILLE RD", "LATITUDE": "43.4832858200001", "LONGITUDE": "-80.607104856" }, "geometry": { "type": "Point", "coordinates": [ -80.607104855999978, 43.483285820000049 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Church of The Holy Saviour", "ADDRESS": "33 ALLEN ST E", "LATITUDE": "43.4612517690001", "LONGITUDE": "-80.517472725" }, "geometry": { "type": "Point", "coordinates": [ -80.517472724999948, 43.461251769000057 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Parkminster United Church", "ADDRESS": "275 ERB ST E", "LATITUDE": "43.4708709070001", "LONGITUDE": "-80.498601363" }, "geometry": { "type": "Point", "coordinates": [ -80.498601362999977, 43.470870907000062 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Glen Acres Baptist Church", "ADDRESS": "223 HARTWOOD AVE", "LATITUDE": "43.4638516770001", "LONGITUDE": "-80.501064533" }, "geometry": { "type": "Point", "coordinates": [ -80.501064532999962, 43.463851677000036 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "German Gospel Church", "ADDRESS": "223 UNION ST E", "LATITUDE": "43.4659316920001", "LONGITUDE": "-80.502958554" }, "geometry": { "type": "Point", "coordinates": [ -80.502958553999974, 43.465931692000026 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. Columba's Anglican Church", "ADDRESS": "250 LINCOLN RD", "LATITUDE": "43.4800353310001", "LONGITUDE": "-80.507754182" }, "geometry": { "type": "Point", "coordinates": [ -80.507754181999985, 43.480035331000067 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Christ Lutheran Church", "ADDRESS": "445 ANNDALE RD", "LATITUDE": "43.4936338450001", "LONGITUDE": "-80.512517453" }, "geometry": { "type": "Point", "coordinates": [ -80.512517452999973, 43.493633845000033 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Waterloo Mennonite Brethren Church", "ADDRESS": "245 LEXINGTON RD", "LATITUDE": "43.4933691270001", "LONGITUDE": "-80.511290521" }, "geometry": { "type": "Point", "coordinates": [ -80.511290520999978, 43.493369127000051 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. George Serbian Orthodox Church", "ADDRESS": "665 KING ST N", "LATITUDE": "43.5090392250001", "LONGITUDE": "-80.54231738" }, "geometry": { "type": "Point", "coordinates": [ -80.542317379999986, 43.509039225000038 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. John's Lutheran Church", "ADDRESS": "22 WILLOW ST", "LATITUDE": "43.4649430220001", "LONGITUDE": "-80.516887576" }, "geometry": { "type": "Point", "coordinates": [ -80.516887575999988, 43.464943022000057 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "W-K United Mennonite Church", "ADDRESS": "15 GEORGE ST", "LATITUDE": "43.4613845200001", "LONGITUDE": "-80.519259826" }, "geometry": { "type": "Point", "coordinates": [ -80.519259825999939, 43.461384520000081 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "New Apostolic Church of Canada", "ADDRESS": "45 LODGE ST", "LATITUDE": "43.4740829550001", "LONGITUDE": "-80.522138168" }, "geometry": { "type": "Point", "coordinates": [ -80.522138167999969, 43.474082955000029 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "First United Church", "ADDRESS": "16 WILLIAM ST W", "LATITUDE": "43.4616345290001", "LONGITUDE": "-80.521918457" }, "geometry": { "type": "Point", "coordinates": [ -80.52191845699997, 43.46163452900003 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Redeemer Lutheran Church", "ADDRESS": "78 JOHN ST W", "LATITUDE": "43.4559558220001", "LONGITUDE": "-80.521781099" }, "geometry": { "type": "Point", "coordinates": [ -80.521781098999952, 43.455955822000078 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Bethel Chapel", "ADDRESS": "16 LAUREL ST", "LATITUDE": "43.4661338660001", "LONGITUDE": "-80.518733217" }, "geometry": { "type": "Point", "coordinates": [ -80.518733216999976, 43.466133866000064 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Emmanuel United Church of Canada", "ADDRESS": "22 BRIDGEPORT RD W", "LATITUDE": "43.4676988260001", "LONGITUDE": "-80.524560003" }, "geometry": { "type": "Point", "coordinates": [ -80.524560002999976, 43.46769882600006 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Knox Presbyterian Church", "ADDRESS": "50 ERB ST W", "LATITUDE": "43.4647675710001", "LONGITUDE": "-80.52508894" }, "geometry": { "type": "Point", "coordinates": [ -80.525088939999989, 43.464767571000039 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Waterloo Pentecostal Assembly", "ADDRESS": "395 KING ST N", "LATITUDE": "43.4837162070001", "LONGITUDE": "-80.527206634" }, "geometry": { "type": "Point", "coordinates": [ -80.527206633999981, 43.483716207000043 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Christ The Saviour Antiochian Orthodox Church (English)", "ADDRESS": "96 DUNBAR RD S", "LATITUDE": "43.4581607540001", "LONGITUDE": "-80.526919424" }, "geometry": { "type": "Point", "coordinates": [ -80.526919423999956, 43.458160754000062 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Erb Street Mennonite Church", "ADDRESS": "131 ERB ST W", "LATITUDE": "43.4618925090001", "LONGITUDE": "-80.530316582" }, "geometry": { "type": "Point", "coordinates": [ -80.530316581999955, 43.461892509000052 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Our Lady Of Lourdes Roman Catholic Church", "ADDRESS": "173 LOURDES ST", "LATITUDE": "43.4588643090001", "LONGITUDE": "-80.531098479" }, "geometry": { "type": "Point", "coordinates": [ -80.531098478999979, 43.458864309000035 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. Michael's Roman Catholic Church", "ADDRESS": "64 UNIVERSITY AVE W", "LATITUDE": "43.4745680710001", "LONGITUDE": "-80.530466043" }, "geometry": { "type": "Point", "coordinates": [ -80.53046604299999, 43.474568071000078 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Church of Christ", "ADDRESS": "470 GLENELM CR", "LATITUDE": "43.489723794", "LONGITUDE": "-80.54380148" }, "geometry": { "type": "Point", "coordinates": [ -80.543801479999942, 43.489723794000042 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Mount Zion Lutheran Church", "ADDRESS": "29 WESTMOUNT RD S", "LATITUDE": "43.4576247180001", "LONGITUDE": "-80.535847526" }, "geometry": { "type": "Point", "coordinates": [ -80.535847525999941, 43.457624718000034 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "First Baptist Church", "ADDRESS": "306 ERB ST W", "LATITUDE": "43.4571213290001", "LONGITUDE": "-80.54311167" }, "geometry": { "type": "Point", "coordinates": [ -80.543111669999973, 43.457121329000074 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Lincoln Road Chapel", "ADDRESS": "145 LINCOLN RD", "LATITUDE": "43.4718580590001", "LONGITUDE": "-80.510846725" }, "geometry": { "type": "Point", "coordinates": [ -80.510846724999965, 43.471858059000056 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Creekside Church (formerly Community Fellowship Baptist Church)", "ADDRESS": "660 CONSERVATION DR", "LATITUDE": "43.4856820600001", "LONGITUDE": "-80.60232251" }, "geometry": { "type": "Point", "coordinates": [ -80.602322509999965, 43.485682060000045 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Muslim Society of Waterloo and Wellington Counties", "ADDRESS": "213 ERB ST W", "LATITUDE": "43.4590996920001", "LONGITUDE": "-80.535469952" }, "geometry": { "type": "Point", "coordinates": [ -80.535469951999971, 43.459099692000052 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. Louis Roman Catholic Church", "ADDRESS": "53 ALLEN ST E", "LATITUDE": "43.4621977350001", "LONGITUDE": "-80.516271493" }, "geometry": { "type": "Point", "coordinates": [ -80.516271492999977, 43.462197735000075 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Waterloo North Presbyterian Church", "ADDRESS": "685 HIGHPOINT AVE", "LATITUDE": "43.4905807900001", "LONGITUDE": "-80.565954915" }, "geometry": { "type": "Point", "coordinates": [ -80.565954914999963, 43.490580790000081 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Messiah Lutheran Church", "ADDRESS": "700 GLEN FORREST BLVD", "LATITUDE": "43.4930465100001", "LONGITUDE": "-80.550551035" }, "geometry": { "type": "Point", "coordinates": [ -80.550551034999955, 43.493046510000056 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "KW Islamic Assoc", "ADDRESS": "334 CONCORDIA CRES", "LATITUDE": "43.4951343950001", "LONGITUDE": "-80.502153968" }, "geometry": { "type": "Point", "coordinates": [ -80.502153967999959, 43.495134395000036 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Chabad Lubavitch of the Waterloo Region", "ADDRESS": "259 ALBERT ST", "LATITUDE": "43.4755633120001", "LONGITUDE": "-80.533406554" }, "geometry": { "type": "Point", "coordinates": [ -80.533406553999953, 43.475563312000077 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Grace Mennonite Brethren Church", "ADDRESS": "140 WESTMOUNT RD N", "LATITUDE": "43.4670730690001", "LONGITUDE": "-80.545372069" }, "geometry": { "type": "Point", "coordinates": [ -80.545372068999939, 43.467073069000037 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "St. Agnes Roman Catholic Church", "ADDRESS": "75 BLUEVALE ST N", "LATITUDE": "43.4757709180001", "LONGITUDE": "-80.501274187" }, "geometry": { "type": "Point", "coordinates": [ -80.501274186999979, 43.47577091800008 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Waterloo Christian Reformed Church", "ADDRESS": "209 BEARINGER RD", "LATITUDE": "43.4849497990001", "LONGITUDE": "-80.54760525" }, "geometry": { "type": "Point", "coordinates": [ -80.547605249999947, 43.484949799000042 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Lincoln Heights Evangelical Missionary Church", "ADDRESS": "289 LINCOLN RD", "LATITUDE": "43.4821143320001", "LONGITUDE": "-80.505316187" }, "geometry": { "type": "Point", "coordinates": [ -80.505316186999949, 43.482114332000037 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Ukranian Orthodox Church Of St. Sophia", "ADDRESS": "154 KING ST N", "LATITUDE": "43.4715156200001", "LONGITUDE": "-80.523735101" }, "geometry": { "type": "Point", "coordinates": [ -80.523735100999943, 43.471515620000048 ] } }
+,
+{ "type": "Feature", "properties": { "NAME": "Church Of God (German)", "ADDRESS": "170 MIDDLEBURY DR", "LATITUDE": "43.4429826010001", "LONGITUDE": "-80.552541776" }, "geometry": { "type": "Point", "coordinates": [ -80.552541775999941, 43.44298260100004 ] } }
+
+]
+}
