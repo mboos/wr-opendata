@@ -115,7 +115,7 @@
             
             datasets.map(function(dataset) {
               div.innerHTML += '<input type="checkbox" id="' +
-                dataset.ref + '"/>' + dataset.name + '<br/>'
+                dataset.ref + '" name="a" value="b"/>' + dataset.name + '<br/>'
               $('#'+dataset.ref).change(function() {
                 if ($('#'+dataset.ref).attr('checked')) {
                   if (dataset.layer) {
