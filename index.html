@@ -57,7 +57,7 @@
             html += '<tr><td class="fieldName">' + k + '</td><td>' + v + '</td></tr>';
           });
           html+= '</table>';
-          layer.bindPopup(html);
+          layer.bindPopup(html, {closeButton:false});
         }
       }
       
