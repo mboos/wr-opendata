@@ -130,7 +130,7 @@
         
         datasets.map(function(dataset) {
           $('#'+dataset.ref).change(function() {
-            if ($('#'+dataset.ref).attr('checked')) {
+            if (this.attr('checked')) {
               if (dataset.layer) {
                 dataset.layer.addTo(map);
               } else {
