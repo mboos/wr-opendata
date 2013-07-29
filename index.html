@@ -162,16 +162,16 @@
           ref: 'waterloo_facilities',
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Facilities',
           icon: function(f) {
-            if (f.properties.Type == 'Sports or Recreation Facility') {
+            if (f.properties.TYPE == 'Sports or Recreation Facility') {
               if (f.properties.FACILITY.indexOf('Golf') >= 0) {
                 return 'icons/golf-12.png'
               }
               return 'icons/pitch-12.png'
-            } else if (f.properties.Type == 'Fire Hall') {
+            } else if (f.properties.TYPE == 'Fire Hall') {
               return 'icons/fire-station-12.png'
-            } else if (f.properties.Type == 'Community Centre') {
+            } else if (f.properties.TYPE == 'Community Centre') {
               return 'icons/warehouse-12.png'
-            } else if (f.properties.Type == 'Arts or Cultural Facility') {
+            } else if (f.properties.TYPE == 'Arts or Cultural Facility') {
               if (f.properties.FACILITY.indexOf('Museum') >= 0) {
                 return 'icons/museum-12.png'
               } else if (f.properties.FACILITY.indexOf('Library') >= 0) {
@@ -181,15 +181,15 @@
               } else {
                 return 'icons/art-gallery-12.png'
               }
-            } else if (f.properties.Type == 'City Administration') {
+            } else if (f.properties.TYPE == 'City Administration') {
               if (f.properties.FACILITY.indexOf('Service') >= 0) {
                 return 'icons/warehouse-12.png'
               } else {
                 return 'icons/town-hall-12.png'
               }
-            } else if (f.properties.Type == 'Shopping Centre') {
+            } else if (f.properties.TYPE == 'Shopping Centre') {
               return 'icons/shop-12.png'
-            } else if (f.properties.Type == 'Cemetery') {
+            } else if (f.properties.TYPE == 'Cemetery') {
               return 'icons/cemetery-12.png'
             }            
             return 'icons/marker-stroked-12.png'
