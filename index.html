@@ -127,7 +127,7 @@
           }
         },
         {
-          name: 'Buildings <tiny>Contains information licensed under the Open Government Licence Ð Ontario.</tiny>',
+          name: 'Buildings*',
           url: 'buildings.topojson',
           ref: 'buildings',
           href: 'http://www.ontario.ca/environment-and-energy/building-scale',
@@ -458,6 +458,7 @@
                 dataset.href + '">' + dataset.name + '</a><br/>'
               
             });
+            div.innerHTML += '<small>Contains information licensed under the Open Government Licence Ð Ontario.</small>'
             
             return div;
         };
