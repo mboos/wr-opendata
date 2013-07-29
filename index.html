@@ -199,8 +199,17 @@
           }
         },
         {
+          name: 'Waterloo Parks',
+          url: 'waterloo_parks.topojson',
+          ref: 'waterloo_parks',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Parks',
+          style: function(feature) {
+            return { color: '#0f0'};
+          }
+        },
+        {
           name: 'Waterloo Heritage Buildings',
-          url: 'waterloo_heritage_buildings.json',
+          url: 'waterloo_heritage_buildings.topojson',
           ref: 'waterloo_heritage_buildings',
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/HeritageBuildings',
           icon: function(f) { return 'icons/building-12.png' }, 
@@ -209,7 +218,17 @@
           }
         },
         {
-          name: 'Regional Boundarieas',
+          name: 'Waterloo Places of Worship',
+          url: 'waterloo_places_of_worship.json',
+          ref: 'waterloo_places_of_worship',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/PlacesofWorship',
+          icon: function(f) { return 'icons/place-of-worship-12.png' }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
+          name: 'Regional Boundaries',
           url: 'regional_boundaries.topojson',
           ref: 'regional_boundaries',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/RegionalBoundary.asp',
