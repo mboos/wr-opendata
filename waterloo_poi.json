@@ -1,18 +1,1 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "LABEL": "Conestoga College", "LATITUDE": "43.479700144", "LONGITUDE": "-80.518175607" }, "geometry": { "type": "Point", "coordinates": [ -80.518175606999989, 43.479700144000049 ] } }
-,
-{ "type": "Feature", "properties": { "LABEL": "Laurier University Campus", "LATITUDE": "43.4736908730001", "LONGITUDE": "-80.527579267" }, "geometry": { "type": "Point", "coordinates": [ -80.527579266999965, 43.473690873000066 ] } }
-,
-{ "type": "Feature", "properties": { "LABEL": "Region of Waterloo Landfill", "LATITUDE": "43.4374421850001", "LONGITUDE": "-80.5741400269999" }, "geometry": { "type": "Point", "coordinates": [ -80.574140026999942, 43.437442185000066 ] } }
-,
-{ "type": "Feature", "properties": { "LABEL": "Region of Waterloo Waste Management", "LATITUDE": "43.442207399", "LONGITUDE": "-80.579243471" }, "geometry": { "type": "Point", "coordinates": [ -80.579243470999984, 43.44220739900004 ] } }
-,
-{ "type": "Feature", "properties": { "LABEL": "Sun Life Centre", "LATITUDE": "43.4577287050001", "LONGITUDE": "-80.516825377" }, "geometry": { "type": "Point", "coordinates": [ -80.516825376999975, 43.457728705000079 ] } }
-,
-{ "type": "Feature", "properties": { "LABEL": "University of Waterloo Campus", "LATITUDE": "43.4701726010001", "LONGITUDE": "-80.5428834699999" }, "geometry": { "type": "Point", "coordinates": [ -80.542883469999936, 43.470172601000058 ] } }
-
-]
-}
+{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-80.51817560699999, 43.47970014400005]}, "type": "Feature", "properties": {"LATITUDE": "43.479700144", "LONGITUDE": "-80.518175607", "LABEL": "Conestoga College"}}, {"geometry": {"type": "Point", "coordinates": [-80.52757926699996, 43.473690873000066]}, "type": "Feature", "properties": {"LATITUDE": "43.4736908730001", "LONGITUDE": "-80.527579267", "LABEL": "Laurier University Campus"}}, {"geometry": {"type": "Point", "coordinates": [-80.57414002699994, 43.437442185000066]}, "type": "Feature", "properties": {"LATITUDE": "43.4374421850001", "LONGITUDE": "-80.5741400269999", "LABEL": "Region of Waterloo Landfill"}}, {"geometry": {"type": "Point", "coordinates": [-80.57924347099998, 43.44220739900004]}, "type": "Feature", "properties": {"LATITUDE": "43.442207399", "LONGITUDE": "-80.579243471", "LABEL": "Region of Waterloo Waste Management"}}, {"geometry": {"type": "Point", "coordinates": [-80.51682537699998, 43.45772870500008]}, "type": "Feature", "properties": {"LATITUDE": "43.4577287050001", "LONGITUDE": "-80.516825377", "LABEL": "Sun Life Centre"}}, {"geometry": {"type": "Point", "coordinates": [-80.54288346999994, 43.47017260100006]}, "type": "Feature", "properties": {"LATITUDE": "43.4701726010001", "LONGITUDE": "-80.5428834699999", "LABEL": "University of Waterloo Campus"}}]}
