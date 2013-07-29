@@ -162,7 +162,7 @@
           ref: 'waterloo_facilities',
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Facilities',
           icon: function(f) {
-            if (f.properties.TYPE == 'Sports or Recreation Facility') {
+            if (f.properties.TYPE == 'Sports or Recreation') {
               if (f.properties.FACILITY.indexOf('Golf') >= 0) {
                 return 'icons/golf-12.png'
               }
@@ -171,7 +171,7 @@
               return 'icons/fire-station-12.png'
             } else if (f.properties.TYPE == 'Community Centre') {
               return 'icons/warehouse-12.png'
-            } else if (f.properties.TYPE == 'Arts or Cultural Facility') {
+            } else if (f.properties.TYPE == 'Arts or Cultural Fac') {
               if (f.properties.FACILITY.indexOf('Museum') >= 0) {
                 return 'icons/museum-12.png'
               } else if (f.properties.FACILITY.indexOf('Library') >= 0) {
