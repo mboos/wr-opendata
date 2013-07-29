@@ -60,11 +60,7 @@
         if (feature.properties) {
           html = '<table>'
           $.each(feature.properties, function( k, v ) {
-            if (v.indexOf('http://') >= 0) {
-              html += '<tr><th>' + k + '</td><td><a href="' + v + '">' + v + '</a></td></tr>';
-            } else {
-              html += '<tr><th>' + k + '</td><td>' + v + '</td></tr>';
-            }
+            html += '<tr><th>' + k + '</td><td>' + v + '</td></tr>';
           });
           html+= '</table>';
           layer.bindPopup(html, {closeButton:false});
