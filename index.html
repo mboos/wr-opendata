@@ -158,7 +158,7 @@
         },
         {
           name: 'Waterloo Facilities',
-          url: 'waterloo_facilities.json',
+          url: 'waterloo_facilities.topojson',
           ref: 'waterloo_facilities',
           href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Facilities',
           icon: function(f) {
@@ -194,6 +194,16 @@
             }            
             return 'icons/marker-stroked-12.png'
           }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
+          name: 'Waterloo Heritage Buildings',
+          url: 'waterloo_heritage_buildings.json',
+          ref: 'waterloo_heritage_buildings',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/HeritageBuildings',
+          icon: function(f) { return 'icons/building-12.png' }, 
           style: function(feature) {
             return {};
           }
