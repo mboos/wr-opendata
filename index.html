@@ -228,6 +228,37 @@
           }
         },
         {
+          name: 'Waterloo Points of Interest',
+          url: 'waterloo_poi.json',
+          ref: 'waterloo_poi',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/PointsofInterest',
+          icon: function(f) {
+            if (f.properties.LABEL.indexOf('University') >= 0 ||
+                f.properties.LABEL.indexOf('College') >= 0) {
+              return 'icons/college-12.png'
+            } else if (f.properties.LABEL.indexOf('Waste') >= 0 ||
+                f.properties.LABEL.indexOf('Landfill') >= 0) {
+              return 'icons/waste-basket-12.png'
+            }
+            return 'icons/marker-stroked-12.png'
+          }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
+          name: 'Waterloo Urban Design Awards',
+          url: 'waterloo_urban_design_awards.json',
+          ref: 'waterloo_urban_design_awards',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/UrbanDesignAwards',
+          icon: function(f) {
+            return 'icons/star-stroked-12.png'
+          }, 
+          style: function(feature) {
+            return {};
+          }
+        },
+        {
           name: 'Regional Boundaries',
           url: 'regional_boundaries.topojson',
           ref: 'regional_boundaries',
@@ -256,6 +287,15 @@
           url: 'ward_boundaries.topojson',
           ref: 'ward_boundaries',
           href: 'http://www.regionofwaterloo.ca/en/regionalGovernment/WardBoundaries.asp',
+          style: function(feature) {
+            return { color: '#' + Math.floor(Math.random()*16777215).toString(16) };
+          }
+        },
+        {
+          name: 'Waterloo Wards 2010',
+          url: 'waterloo_wards_2010.topojson',
+          ref: 'waterloo_wards_2010',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Wards2010',
           style: function(feature) {
             return { color: '#' + Math.floor(Math.random()*16777215).toString(16) };
           }
@@ -352,6 +392,15 @@
               return { color: '#333', weight: 1};
             }
             return { color: 'black' };
+          }
+        },
+        {
+          name: 'Waterloo Railways',
+          url: 'waterloo_railways.topojson',
+          ref: 'waterloo_railways',
+          href: 'http://cityofwaterlooopendata.cloudapp.net/DataBrowser/CityOfWaterlooOpenData/Railways',
+          style: function(feature) {
+            return { color: 'black', dashArray: '5, 8' };
           }
         },
         {
